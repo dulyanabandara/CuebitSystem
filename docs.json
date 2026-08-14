@@ -1,92 +1,145 @@
 {
-  "$schema": "https://mintlify.com/schema.json",
   "theme": "mint",
   "name": "DocketFlow User Guide",
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "favicon": "/favicon.svg",
   "colors": {
     "primary": "#2563EB",
     "light": "#60A5FA",
-    "dark": "#1D4ED8",
-    "anchors": {
-      "from": "#2563EB",
-      "to": "#1D4ED8"
-    }
+    "dark": "#1D4ED8"
   },
-  "topbarLinks": [
-    {
-      "name": "Sign in",
-      "url": "https://app.docketflow.example/login"
-    }
-  ],
-  "topbarCtaButton": {
-    "name": "Open DocketFlow",
-    "url": "https://app.docketflow.example"
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "groups": [
+      {
+        "group": "Overview",
+        "pages": ["index"]
+      },
+      {
+        "group": "Getting Started",
+        "pages": ["getting-started/index", "getting-started/roles-at-a-glance"]
+      },
+      {
+        "group": "Administrator",
+        "pages": [
+          "administrator/index",
+          "administrator/organizational-profile",
+          "administrator/users",
+          "administrator/clients",
+          "administrator/contracts",
+          "administrator/rate-card",
+          "administrator/work-items",
+          "administrator/staff-allocation",
+          "administrator/dockets",
+          "administrator/overview",
+          "administrator/progress-claims",
+          "administrator/permissions"
+        ]
+      },
+      {
+        "group": "Supervisor",
+        "pages": ["supervisor/index", "supervisor/workflow", "supervisor/offline", "supervisor/permissions"]
+      },
+      {
+        "group": "Field Technician",
+        "pages": [
+          "field-technician/index",
+          "field-technician/workflow",
+          "field-technician/overview",
+          "field-technician/offline",
+          "field-technician/permissions"
+        ]
+      },
+      {
+        "group": "Common Tasks",
+        "pages": [
+          "common-tasks/index",
+          "common-tasks/create-submit-docket",
+          "common-tasks/variation-warnings",
+          "common-tasks/drafts-vs-submitted",
+          "common-tasks/troubleshooting"
+        ]
+      }
+    ]
   },
-  "tabs": [],
-  "navigation": [
-    {
-      "group": "Overview",
-      "pages": [
-        "index"
-      ]
-    },
-    {
-      "group": "Getting Started",
-      "pages": [
-        "getting-started/index",
-        "getting-started/roles-at-a-glance"
-      ]
-    },
-    {
-      "group": "Administrator",
-      "pages": [
-        "administrator/index",
-        "administrator/organizational-profile",
-        "administrator/users",
-        "administrator/clients",
-        "administrator/contracts",
-        "administrator/rate-card",
-        "administrator/work-items",
-        "administrator/staff-allocation",
-        "administrator/dockets",
-        "administrator/overview",
-        "administrator/progress-claims",
-        "administrator/permissions"
-      ]
-    },
-    {
-      "group": "Supervisor",
-      "pages": [
-        "supervisor/index",
-        "supervisor/workflow",
-        "supervisor/offline",
-        "supervisor/permissions"
-      ]
-    },
-    {
-      "group": "Field Technician",
-      "pages": [
-        "field-technician/index",
-        "field-technician/workflow",
-        "field-technician/overview",
-        "field-technician/offline",
-        "field-technician/permissions"
-      ]
-    },
-    {
-      "group": "Common Tasks",
-      "pages": [
-        "common-tasks/index",
-        "common-tasks/create-submit-docket",
-        "common-tasks/variation-warnings",
-        "common-tasks/drafts-vs-submitted",
-        "common-tasks/troubleshooting"
-      ]
+  "navbar": {
+    "links": [
+      { "label": "Sign in", "href": "https://app.docketflow.example/login" }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Open DocketFlow",
+      "href": "https://app.docketflow.example"
     }
-  ],
-  "footerSocials": {}
+  }
+}{
+  "theme": "mint",
+  "name": "DocketFlow User Guide",
+  "colors": {
+    "primary": "#2563EB",
+    "light": "#60A5FA",
+    "dark": "#1D4ED8"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "groups": [
+      {
+        "group": "Overview",
+        "pages": ["index"]
+      },
+      {
+        "group": "Getting Started",
+        "pages": ["getting-started/index", "getting-started/roles-at-a-glance"]
+      },
+      {
+        "group": "Administrator",
+        "pages": [
+          "administrator/index",
+          "administrator/organizational-profile",
+          "administrator/users",
+          "administrator/clients",
+          "administrator/contracts",
+          "administrator/rate-card",
+          "administrator/work-items",
+          "administrator/staff-allocation",
+          "administrator/dockets",
+          "administrator/overview",
+          "administrator/progress-claims",
+          "administrator/permissions"
+        ]
+      },
+      {
+        "group": "Supervisor",
+        "pages": ["supervisor/index", "supervisor/workflow", "supervisor/offline", "supervisor/permissions"]
+      },
+      {
+        "group": "Field Technician",
+        "pages": [
+          "field-technician/index",
+          "field-technician/workflow",
+          "field-technician/overview",
+          "field-technician/offline",
+          "field-technician/permissions"
+        ]
+      },
+      {
+        "group": "Common Tasks",
+        "pages": [
+          "common-tasks/index",
+          "common-tasks/create-submit-docket",
+          "common-tasks/variation-warnings",
+          "common-tasks/drafts-vs-submitted",
+          "common-tasks/troubleshooting"
+        ]
+      }
+    ]
+  },
+  "navbar": {
+    "links": [
+      { "label": "Sign in", "href": "https://app.docketflow.example/login" }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Open DocketFlow",
+      "href": "https://app.docketflow.example"
+    }
+  }
 }
