@@ -1,4 +1,4 @@
-# Quebits Systems — Documentation
+# Cuebit Systems — Documentation
 
 Multi-product docs site (Mintlify), structured like Supra's docs
 (one site, one tab per product).
