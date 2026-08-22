@@ -1,5 +1,4 @@
 ---
-layout: default
 title: "Getting Started"
 description: "Sign in, first-time prompts, online/offline, and sign out."
 ---
