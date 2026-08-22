@@ -1,5 +1,4 @@
 ---
-layout: default
 title: "Administrator"
 description: "Firm setup, users, clients, contracts, rate cards, work items, staff allocation, dockets, and overview."
 ---
